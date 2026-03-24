@@ -13,14 +13,14 @@ public class App {
           
            
 
-           Libro libro1 = new biblioteca.Libro("Cien años de soledad", "Gabriel García Márquez", 1967, "Editorial Sudamericana", "858.67 M566");
+           biblioteca.Libro libro1 = new biblioteca.Libro("Cien años de soledad", "Gabriel García Márquez", 1967, "Editorial Sudamericana", "858.67 M566");
            
            biblioteca.añadirLibro(libro1);
            
           
 
 
-           Libro libro2 = new biblioteca.Libro("Rayuela", "Julio Cortázar", 1963, "Sudamericana", "863.55 J667");
+           biblioteca.Libro libro2 = new biblioteca.Libro("Rayuela", "Julio Cortázar", 1963, "Sudamericana", "863.55 J667");
            
            biblioteca.añadirLibro(libro2);    
           
@@ -29,7 +29,7 @@ public class App {
           
         
 
-           Libro libro3 = new biblioteca.Libro("La tía julia y el escribidor", "Mario Vargas Llosa", 1977, "Seix Barral", "868 23 L567");
+           biblioteca.Libro libro3 = new biblioteca.Libro("La tía julia y el escribidor", "Mario Vargas Llosa", 1977, "Seix Barral", "868 23 L567");
            
            biblioteca.añadirLibro(libro3);
           

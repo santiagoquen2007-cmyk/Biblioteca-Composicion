@@ -34,9 +34,11 @@ public class Biblioteca {
     public void listarLibros() {
         System.out.println("Libros en la biblioteca " + nombre + ":");
         for (Libro libro : libros) {
-            libro.imprimir();
             System.out.println("-----------------------------");
+            libro.imprimir();
+            
         }
+        
     }
     
 }
